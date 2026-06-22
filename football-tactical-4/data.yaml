@@ -1,0 +1,15 @@
+names:
+- ball
+- goalkeeper
+- player
+- referee
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: football-tactical
+  url: https://universe.roboflow.com/alfonso-secretara-tcnica/football-tactical/dataset/4
+  version: 4
+  workspace: alfonso-secretara-tcnica
+test: ../test/images
+train: ../train/images
+val: ../valid/images
