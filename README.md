@@ -46,6 +46,7 @@ The system utilizes an **Augmented Reality (AR) Tactical Overlay** to visualize 
 
 ## 📚 Acknowledgements & References
 Dataset: The model was trained using the football-tactical dataset provided by Alfonso Secretara Tecnica on Roboflow Universe.
+
 Architecture: YOLO by Ultralytics | ByteTrack
 
 Developed by Chesta Yurcel Zebada | 2026
