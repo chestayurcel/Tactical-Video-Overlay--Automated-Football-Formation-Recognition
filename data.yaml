@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['ball', 'goalkeeper', 'player', 'referee']
+
+roboflow:
+  workspace: chestas-workspace
+  project: formation_recognition_finetune
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chestas-workspace/formation_recognition_finetune/dataset/1

@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Video and Image Files (Do not upload large broadcast videos)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+# Except for specific demo images in the docs folder:
+!docs/*.jpg
+!docs/*.png
+
+# YOLO weights and models
+*.pt
+*.weights
+*.onnx
+runs/
+
+# Datasets and extracted frame folders
+datasets/
+data/
+train/
+valid/
+test/
+Formation_Recognition_FineTune*/
+football-tactical*/
+gt_frames/
+
+# Runtime logs and diagnostic outputs
+log_formasi_per_frame.csv
+investigasi_fa.csv
+*.log
+
+# Backup and temporary files
+*_backup*.py
+ar_taktik_backup_*.py
+*.bak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

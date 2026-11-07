@@ -1,0 +1,14 @@
+=== STATISTIK GROUND TRUTH ===
+instance_valid_V,1258
+
+=== HASIL METRIK ===
+konfigurasi,instance_valid,FA_exact_%,FA_near_%,Coverage_%,FA_cov_%,ULCR_per100fr,SLF_%,transisi_GT,TDR_%,delay_rata2_frame
+Dengan Temporal Memory (usulan),1258,26.9,75.0,98.1,27.5,2.0,45.4,54,29.6,0.0
+Tanpa Memory (instantaneous decoding),1258,14.2,48.5,100.0,14.2,16.27,24.0,54,16.7,0.1
+
+=== DISTRIBUSI STATUS ===
+hold,605
+init,1
+latch,607
+unknown,23
+update,22
