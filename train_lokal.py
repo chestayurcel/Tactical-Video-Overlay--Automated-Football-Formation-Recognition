@@ -1,3 +1,5 @@
+import os
+
 from roboflow import Roboflow
 from ultralytics import YOLO
 
@@ -5,7 +7,7 @@ if __name__ == '__main__':
 
     print("=== TAHAP 1: MENGUNDUH DATASET ===")
     # Masukkan API Key Roboflow milikmu
-    rf = Roboflow(api_key="juJ2GqPRazD3j6KoNysF")
+    rf = Roboflow(api_key=os.environ["ROBOFLOW_API_KEY"])
     project = rf.workspace("alfonso-secretara-tcnica").project("football-tactical")
     version = project.version(4)
     dataset = version.download("yolov8")
